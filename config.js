@@ -23,15 +23,15 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Isadora",
+  nome: "Maria Helena",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5511948469479",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Isadora."
+    numero: "5515991686144",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Maria Helena."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
@@ -49,9 +49,9 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: false,
-    manual: false,
-    contagem: true
+    dresscode: true,
+    manual: true,
+    contagem: false
   },
 
   // ----- PIX OPCIONAL (SUGESTÕES DE PRESENTES) ---------------------------
@@ -60,8 +60,8 @@ window.CONFIG = {
   // chave: é exatamente o texto que será copiado quando o convidado clicar.
   // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
   pix: {
-    ativo: false,
-    chave: "COLE_A_CHAVE_PIX_AQUI",
+    ativo: true,
+    chave: "00020101021126580014br.gov.bcb.pix01365210c16e-d225-40ac-ae51-46aafcf6426c5204000053039865802BR5916MARIA H Z SANTOS6008SOROCABA62070503***6304E9FA",
     posicao: { left:20, top:65, width:60, height:10 }
   },
 
@@ -90,7 +90,8 @@ window.CONFIG = {
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
     presentes: { mostrarTexto:true, posicao: {"left":3.0865908296725224,"top":1.2698621493979574,"width":20.20446972344249,"height":7.495966539354989} },
-    contagem: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.77316605930511,"height":7.956272420125552} }
+    manual: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.77316605930511,"height":7.956272420125552} },
+    dresscode: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.77316605930511,"height":7.956272420125552} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -102,7 +103,8 @@ window.CONFIG = {
         confirm: { left:25.449686064098174, top:60.466030655199084, width:19.64355312204473, height:11.449252034014982 },
         map: { left:55.00868653749942, top:60.12078059785067, width:19.292465283626143, height:11.399863780795407 },
         gift: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
-        countdown: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
+        dress: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
+        manual: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
