@@ -62,7 +62,7 @@ window.CONFIG = {
   pix: {
     ativo: true,
     chave: "00020101021126580014br.gov.bcb.pix01365210c16e-d225-40ac-ae51-46aafcf6426c5204000053039865802BR5916MARIA H Z SANTOS6008SOROCABA62070503***6304E9FA",
-    posicao: { left:20, top:65, width:60, height:10 }
+    posicao: {"left":20,"top":65,"width":60,"height":10}
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
@@ -89,9 +89,9 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:true, posicao: {"left":3.0865908296725224,"top":1.2698621493979574,"width":20.20446972344249,"height":7.495966539354989} },
-    manual: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.77316605930511,"height":7.956272420125552} },
-    dresscode: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.77316605930511,"height":7.956272420125552} }
+    presentes: { mostrarTexto:true, posicao: {"left":18.62652381190096,"top":65.71174604968132,"width":63.55270629492811,"height":6.575369044518} },
+    dresscode: { mostrarTexto:true, posicao: {"left":26.805437549920125,"top":86.88550214891683,"width":46.581485248602235,"height":5.424627114446271} },
+    manual: { mostrarTexto:true, posicao: {"left":25.783057732627793,"top":85.2744510457582,"width":47.80830358925719,"height":5.309555171188598} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -100,11 +100,11 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:25.449686064098174, top:60.466030655199084, width:19.64355312204473, height:11.449252034014982 },
-        map: { left:55.00868653749942, top:60.12078059785067, width:19.292465283626143, height:11.399863780795407 },
-        gift: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
-        dress: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
-        manual: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
+        confirm: { left:19.111031037141306, top:63.8032059022128, width:15.963035699920129, height:8.57238650880756 },
+        map: { left:42.3313764835857, top:64.03332543810177, width:15.611963461541478, height:8.522989476077747 },
+        gift: { left:64.6203873670928, top:63.907444274051855, width:16.091044953075077, height:8.643484137471408 },
+        dress: { left:30.670926517571885, top:77.02597723193821, width:15.682105506190094, height:8.298251846116688 },
+        manual: { left:53.98780574768387, top:76.56567628964217, width:16.29551467651757, height:8.528402317264716 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
