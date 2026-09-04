@@ -81,6 +81,11 @@
     body.editor-on .hotspot::after{content:attr(data-label);position:absolute;left:6px;top:6px;background:#fff;color:#7b3650;border-radius:999px;padding:4px 8px;font-size:12px;font-weight:800;box-shadow:0 2px 8px #0004;white-space:nowrap}
     body.editor-on .hotspot.selected{background:rgba(50,180,255,.28);outline:3px solid #fff}
     body.editor-on .hotspot .resize{position:absolute;right:-7px;bottom:-7px;width:18px;height:18px;background:#fff;border:2px solid #7b3650;border-radius:50%;box-shadow:0 2px 8px #0006}
+    /* PIX: hotspot independente e visível somente no editor */
+    body.editor-on .pix-copy{background:rgba(255,170,40,.28);outline:2px solid rgba(255,255,255,.95);border-radius:10px;z-index:11}
+    body.editor-on .pix-copy::after{content:attr(data-label);position:absolute;left:6px;top:6px;background:#fff;color:#7b3650;border-radius:999px;padding:4px 8px;font-size:12px;font-weight:800;box-shadow:0 2px 8px #0004;white-space:nowrap}
+    body.editor-on .pix-copy.selected{background:rgba(50,180,255,.32);outline:3px solid #fff}
+    body.editor-on .pix-copy .resize{position:absolute;right:-7px;bottom:-7px;width:18px;height:18px;background:#fff;border:2px solid #7b3650;border-radius:50%;box-shadow:0 2px 8px #0006}
     .editor-panel{
   display:none;
   position:fixed;
@@ -309,7 +314,7 @@
       };
 
       // Hotspots (com override opcional do localStorage, para o editor)
-      const STORAGE_KEY = "convite-hotspots-v1";
+      const STORAGE_KEY = "convite-hotspots-v2:" + location.pathname;
       const $ = (id)=>document.getElementById(id);
       const buttons = {
         confirm: document.getElementById("confirmBtn"),
